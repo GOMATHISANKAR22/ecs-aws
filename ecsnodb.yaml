@@ -19,7 +19,7 @@ Parameters:
     Description: The ID of the container image to use
 
   ClusterName:
-    Type: String 
+    Type: Number
     Description: Name for Cluster. 
 
   FileSystemId:
