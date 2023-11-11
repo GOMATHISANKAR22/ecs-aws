@@ -1,0 +1,20 @@
+project:
+  name: ecs
+  regions:
+    - us-east-1
+tests:
+  ecs-test:
+    parameters:
+      ClusterName: ECS
+      AvailabilityZone: us-east-1a
+      KeyName: MarketPlace
+      TaskCpu: 1024
+      TaskMemory: 2048
+      ContainerPort: 80
+      ImageId: httpd:2.4
+      EmailId: d@gmail.com
+      AccessCIDR: 0.0.0.0/0
+      VpcCIDR: 10.192.0.0/16
+      PublicSubnetCIDR: 10.192.10.0/24
+      PrivateSubnetCIDR: 10.192.12.0/24
+    template: mastertemplateforecsfargatewithjenkins/mastertemplateforecsfargatewithjenkins.yaml
