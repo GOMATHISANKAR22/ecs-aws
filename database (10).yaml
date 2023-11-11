@@ -30,7 +30,6 @@ Parameters:
     Description: The username to use for the database
 
   DBPassword:
-    NoEcho: 'true'
     Type: String
     Description: The password to use for the database
 
