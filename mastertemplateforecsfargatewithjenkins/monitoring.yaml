@@ -109,7 +109,6 @@ Resources:
   S3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      AccessControl: BucketOwnerFullControl
       Tags:
         - Key: Name
           Value: !Sub ${AWS::StackName}-CloudTrail
