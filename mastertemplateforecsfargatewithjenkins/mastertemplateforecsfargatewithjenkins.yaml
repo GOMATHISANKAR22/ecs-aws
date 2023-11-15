@@ -20,7 +20,7 @@ Parameters:
         ConstraintDescription: must be between 1 and 65535.
         Default: 80
 
-      ImageId:
+      ContainerImage:
         Type: String
         Description: Enter the Docker Image ID for the container (Eg:httpd:2.4)
         Default: httpd:2.4
