@@ -17,4 +17,4 @@ tests:
       VpcCIDR: 10.192.0.0/16
       PublicSubnetCIDR: 10.192.10.0/24
       PrivateSubnetCIDR: 10.192.12.0/24
-    template: mastertemplateforecsfargatewithjenkins/mastertemplateforecsfargatewithjenkins.yaml
+    template: mastertemplateforecsfargatejenkins/mastertemplateforecsfargatewithjenkins.yaml
