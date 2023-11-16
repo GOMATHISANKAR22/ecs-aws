@@ -203,9 +203,6 @@ Resources:
         DBPassword: !Ref DBPassword
         EfsProvisionedThroughputInMibps: 0
         ClusterName: !Ref ClusterName
-        VpcCIDR: !Ref VpcCIDR
-        VPC: !GetAtt VPC.Outputs.VPC
-        PublicSubnet: !GetAtt VPC.Outputs.PublicSubnet
         PrivateSubnet: !GetAtt VPC.Outputs.PrivateSubnet
         EFSSecurityGroup: !GetAtt VPC.Outputs.EFSSecurityGroup
 
